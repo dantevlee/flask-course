@@ -1,7 +1,7 @@
 from db import db
 
 
-class TagModel(db.Model):
+class UserModel(db.Model):
     __tablename__ = "tags"
 
     id = db.Column(db.Integer, primary_key=True)
